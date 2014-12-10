@@ -5,8 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Tian Cao</title>
- <link href="http://tonycao.github.io/atom.xml" rel="self"/>
- <link href="http://tonycao.github.io/"/>
+ <link href="http://tonycao.github.io/blog/atom.xml" rel="self"/>
+ <link href="http://tonycao.github.io/blog/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://tonycao.github.io/</id>
  <author>
