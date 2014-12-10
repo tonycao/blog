@@ -1,0 +1,5 @@
+#name: Tian's Jekyll Site
+permalink: pretty
+markdown: redcarpet
+pygments: true
+exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
