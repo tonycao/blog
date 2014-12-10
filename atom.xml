@@ -8,7 +8,7 @@ layout: nil
  <link href="http://tonycao.github.io/blog/atom.xml" rel="self"/>
  <link href="http://tonycao.github.io/blog/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tonycao.github.io/</id>
+ <id>http://tonycao.github.io/blog/</id>
  <author>
    <name>Tian Cao</name>
    <email>ct.radiate@gmail.com</email>
