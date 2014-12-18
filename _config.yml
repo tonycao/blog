@@ -3,6 +3,7 @@
 permalink: /:year/:month/:title/
 markdown: redcarpet
 url: http://tiancao.me/blog
+baseurl: http://tiancao.me/blog
 author: Tian Cao
 pygments: true
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
