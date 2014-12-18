@@ -1,5 +1,7 @@
 #name: Tian's Jekyll Site
 permalink: pretty
 markdown: redcarpet
+url: http://tiancao.me/blog
+author: Tian Cao
 pygments: true
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
