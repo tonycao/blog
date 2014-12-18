@@ -11,7 +11,7 @@ layout: nil
  <id>http://tonycao.github.io/blog/</id>
  <author>
    <name>Tian Cao</name>
-   <email>ct.radiate@gmail.com</email>
+   <email>tiancao@cs.unc.edu</email>
  </author>
 
  {% for post in site.posts %}
