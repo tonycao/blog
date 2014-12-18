@@ -1,7 +1,12 @@
 #name: Tian's Jekyll Site
-permalink: pretty
+#permalink: pretty
+permalink: /:year/:month/:title/
 markdown: redcarpet
 url: http://tiancao.me/blog
 author: Tian Cao
 pygments: true
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
+
+# site config
+feed: /atom.xml
+favicon: http://jekyllrb.com/favicon.png
