@@ -1,7 +1,7 @@
 #name: Tian's Jekyll Site
 #permalink: pretty
 permalink: /:year/:month/:title/
-markdown: redcarpet
+markdown: kramdown
 url: http://tiancao.me/blog
 #baseurl: http://tiancao.me/blog
 author: Tian Cao
