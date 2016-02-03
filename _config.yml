@@ -5,7 +5,7 @@ markdown: redcarpet
 url: http://tiancao.me/blog
 #baseurl: http://tiancao.me/blog
 author: Tian Cao
-pygments: true
+highlighter: pygments
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 
 # site config
