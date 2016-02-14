@@ -28,7 +28,7 @@ Idea:
 
 Code:
 
-```c++
+```
   vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings) {
         // http://www.cnblogs.com/easonliu/p/4531020.html
         // Time Complexity: O(n log n)
@@ -65,7 +65,8 @@ Another similar LintCode problem [Building Outline](http://www.lintcode.com/en/p
 * the only difference is when to output the result
 
 Code:
-```c++
+
+```
   vector<vector<int> > buildingOutline(vector<vector<int> > &buildings) {
         // write your code here
         vector<pair<int, int>> height;
