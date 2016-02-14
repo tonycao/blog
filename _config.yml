@@ -5,7 +5,7 @@ markdown: kramdown
 url: http://tiancao.me/blog
 #baseurl: http://tiancao.me/blog
 author: Tian Cao
-highlighter: pygments
+highlighter: rouge
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 
 # site config
