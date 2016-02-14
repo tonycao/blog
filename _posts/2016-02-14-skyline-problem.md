@@ -22,9 +22,9 @@ For instance, the skyline in Figure B should be represented as: `[ [2 10], [3 15
 More details on [Leetcode 218 The skyline problem](https://leetcode.com/problems/the-skyline-problem/).
 
 Idea:
-1. sort the start and end points for all the buildings and check each point one by one.
-2. use a heap to store the heights of current buildings, i.e. overlapped buildings.
-3. use pre and cur to store the heights of previous building and current building respectively. if `pre!=cur` output the reuslt.
+*   sort the start and end points for all the buildings and check each point one by one.
+*   use a heap to store the heights of current buildings, i.e. overlapped buildings.
+*   use pre and cur to store the heights of previous building and current building respectively. if `pre!=cur` output the reuslt.
 
 Code:
 
@@ -63,7 +63,7 @@ Another similar LintCode problem [Building Outline](http://www.lintcode.com/en/p
 
 ![](http://www.lintcode.com/media/problem/jiuzhang3.jpg)
 
-1. the only difference is how to output the result.
+*   the only difference is how to output the result.
 
 Code:
 
