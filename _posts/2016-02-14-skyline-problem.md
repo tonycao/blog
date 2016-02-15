@@ -2,8 +2,8 @@
 layout: post
 title:  "Skyline Problems"
 date:   2016-02-14 17:27:33
-categories: Technical
-tags: interview, algorithm
+categories: technical
+tags: interview algorithm
 ---
 
 A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance. Now suppose you are given the locations and height of all the buildings as shown on a cityscape photo (Figure A), write a program to output the skyline formed by these buildings collectively (Figure B).
@@ -30,9 +30,9 @@ Idea:
 
 Code:
 
-```c
+{% highlight c++ %}
   vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings) {
-        // http://www.cnblogs.com/easonliu/p/4531020.html
+        //http://www.cnblogs.com/easonliu/p/4531020.html
         // Time Complexity: O(n log n)
         // Space Complexity: O(n)
         vector<pair<int, int>> height;
@@ -59,7 +59,7 @@ Code:
         }
         return res;
     }
-```
+{% endhighlight %}
 
 Another similar LintCode problem [Building Outline](http://www.lintcode.com/en/problem/building-outline/)
 
