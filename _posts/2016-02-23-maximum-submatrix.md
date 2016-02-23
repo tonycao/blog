@@ -19,7 +19,7 @@ Idea:
 
 Code:
 
-{% highlight c++ %}
+```c
 #include <iostream>
 #include <vector>
 #include <map>
@@ -112,4 +112,4 @@ int main() {
 	cout << sol.getSubMatrix(matrix) << endl;
 
 }
-{% endhighlight %}
+```
