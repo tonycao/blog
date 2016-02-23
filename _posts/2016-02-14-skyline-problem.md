@@ -26,7 +26,7 @@ Idea:
 
 *   sort the start and end points for all the buildings and check each point one by one.
 *   use a heap to store the heights of current buildings, i.e. overlapped buildings.
-*   use pre and cur to store the heights of previous building and current building respectively. if `pre!=cur` output the reuslt.
+*   use pre and cur to store the heights of previous building and current building respectively. if `pre!=cur` output the result.
 
 Code:
 
