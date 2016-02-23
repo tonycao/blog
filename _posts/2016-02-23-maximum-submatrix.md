@@ -20,6 +20,7 @@ Idea:
 Code:
 
 ```c
+{% highlight c++ %}
 #include <iostream>
 #include <vector>
 #include <map>
@@ -108,8 +109,6 @@ int main() {
 	maxSubMatrixwithEqualZerosandOnes sol;
 	cout << sol.getSubMatrix(matrix) << endl;
 
-	matrix = {{1, 0}, {0, 0}};
-	cout << sol.getSubMatrix(matrix) << endl;
 
 }
-```
+{% endhighlight %}
