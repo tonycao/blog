@@ -19,8 +19,8 @@ Idea:
 
 Code:
 
-```c
 {% highlight c++ %}
+
 #include <iostream>
 #include <vector>
 #include <map>
@@ -111,4 +111,5 @@ int main() {
 
 
 }
+
 {% endhighlight %}
