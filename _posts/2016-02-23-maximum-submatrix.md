@@ -19,7 +19,7 @@ Idea:
 
 Code:
 
-{% highlight c++ %}
+```c
 
 #include <iostream>
 #include <vector>
@@ -112,4 +112,4 @@ int main() {
 
 }
 
-{% endhighlight %}
+```
