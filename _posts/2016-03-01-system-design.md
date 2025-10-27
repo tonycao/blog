@@ -19,18 +19,18 @@ tags: interview algorithm system-design
 
   including [indexing, querying and ranking.](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)
 
-**4. Somt blogs for scalability
+**4. Some blogs for scalability**
 
   [highly scalable blog](https://highlyscalable.wordpress.com/)
 
-**5. find frequent items in data streams
+**5. find frequent items in data streams**
 
   [lossy counting](http://dmac.rutgers.edu/Workshops/WGUnifyingTheory/Slides/cormode.pdf)
 
-**6. Unique ID
+**6. Unique ID**
 
   [distributed unique id (in Chinese)](http://darktea.github.io/notes/2013/12/08/Unique-ID)
 
-**7. System design paper reading list
+**7. System design paper reading list**
 
   [paper list](http://dancres.github.io/Pages/)

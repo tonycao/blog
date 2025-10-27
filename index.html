@@ -1,13 +1,215 @@
----
-layout: default
-title: Tian Cao
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Tian Cao</title>
+   <meta name="author" content="Tian Cao">
+   <meta name="description" content="Personal blog of Tian Cao - Ph.D. Candidate sharing insights on technology, algorithms, and system design.">
+   
+   <!-- RSS Feed -->
+   <link href="http://feeds.feedburner.com/TianCao" rel="alternate" title="Tian Cao" type="application/atom+xml">
+   
+   <!-- Preload critical fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-<div class="home">
-	<h1>Blog Posts</h1>
-	<ul class="posts">
-		{% for post in site.posts %}
-		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
+   <!-- Stylesheets -->
+   <link rel="stylesheet" href="css/syntax.css">
+   <link rel="stylesheet" href="css/screen.css">
+</head>
+<body>
+
+<div class="site">
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="/" class="site-title">Tian Cao</a>
+      <div class="nav-links">
+        <a href="http://tiancao.me/" class="nav-link">home</a>
+        <a href="http://tiancao.me/blog" class="nav-link">blog</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="site-content">
+    <section class="home">
+      <header class="home-header">
+        <h1 class="page-title">Blog Posts</h1>
+        <p class="page-subtitle">Thoughts on technology, algorithms, and system design</p>
+      </header>
+      
+      <div class="posts-container">
+        <article class="post-preview">
+          <header class="post-header">
+            <time class="post-date" datetime="2016-02-23 16:10:33">
+              February 23, 2016
+            </time>
+            <h2 class="post-title">
+              <a href="/2016/02/maximum-submatrix/">Maximum sub-matrix with equal 0's and 1's</a>
+            </h2>
+          </header>
+          
+          <div class="post-excerpt">
+            Problem: Given a matrix, each cell having only 0's or 1's, find the largest sub-matrix with equal number of 0's and 1's in it. Idea: compute cumulated sum for each...
+          </div>
+          
+          <footer class="post-meta">
+            <div class="post-categories"><span class="category-tag">technical</span></div>
+            <span class="read-more">Read more →</span>
+          </footer>
+        </article>
+
+        <article class="post-preview">
+          <header class="post-header">
+            <time class="post-date" datetime="2016-02-23 16:10:33">
+              February 23, 2016
+            </time>
+            <h2 class="post-title">
+              <a href="/2016/03/system-design/">System Design Resources</a>
+            </h2>
+          </header>
+          
+          <div class="post-excerpt">
+            1. Summary on Github system design interviewhttps://github.com/checkcheckzz/system-design-interview system design preparationhttps://github.com/shashank88/system_design 2. Good Summary in Chinesehttp://www.mitbbs.com/article_t/JobHunting/32777529.html 3. Implementing search engines including indexing, querying and ranking.http://www.ardendertat.com/2012/01/11/implementing-search-engines/ 4. Some blogs for scalability highly...
+          </div>
+          
+          <footer class="post-meta">
+            <div class="post-categories"><span class="category-tag">technical</span></div>
+            <span class="read-more">Read more →</span>
+          </footer>
+        </article>
+
+        <article class="post-preview">
+          <header class="post-header">
+            <time class="post-date" datetime="2016-02-14 17:27:33">
+              February 14, 2016
+            </time>
+            <h2 class="post-title">
+              <a href="/2016/02/skyline-problem/">Skyline Problems</a>
+            </h2>
+          </header>
+          
+          <div class="post-excerpt">
+            A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance. Now suppose you are given the locations...
+          </div>
+          
+          <footer class="post-meta">
+            <div class="post-categories"><span class="category-tag">technical</span></div>
+            <span class="read-more">Read more →</span>
+          </footer>
+        </article>
+
+        <article class="post-preview">
+          <header class="post-header">
+            <time class="post-date" datetime="2015-01-28 16:55:33">
+              January 28, 2015
+            </time>
+            <h2 class="post-title">
+              <a href="/2015/01/spell-check-in-sublimetext/">Spell Check in SublimeText</a>
+            </h2>
+          </header>
+          
+          <div class="post-excerpt">
+            I am using LaTex and SublimeText to create slides for my thesis proposal. The feature I need is spell check. After searching on google, I found that the spell check...
+          </div>
+          
+          <footer class="post-meta">
+            <div class="post-categories"><span class="category-tag">technical</span></div>
+            <span class="read-more">Read more →</span>
+          </footer>
+        </article>
+
+        <article class="post-preview">
+          <header class="post-header">
+            <time class="post-date" datetime="2014-12-19 18:43:33">
+              December 19, 2014
+            </time>
+            <h2 class="post-title">
+              <a href="/2014/12/verify-MD5-Checksums-on-a-MAC/">Verify MD5 checksums on a MAC</a>
+            </h2>
+          </header>
+          
+          <div class="post-excerpt">
+            If you want to verify an MD5 checksum for a file on a mac, you can just do: 1. open terminal, type: md5 filename or openssl md5 filename If you...
+          </div>
+          
+          <footer class="post-meta">
+            <div class="post-categories"><span class="category-tag">technical</span></div>
+            <span class="read-more">Read more →</span>
+          </footer>
+        </article>
+
+        <article class="post-preview">
+          <header class="post-header">
+            <time class="post-date" datetime="2014-04-10 19:30:33">
+              April 10, 2014
+            </time>
+            <h2 class="post-title">
+              <a href="/2014/04/welcome-to-jekyll/">Welcome to Jekyll!</a>
+            </h2>
+          </header>
+          
+          <div class="post-excerpt">
+            You'll find this post in your _posts directory - edit this post and re-build or run with the -w switch to see your changes! To add new posts, simply add...
+          </div>
+          
+          <footer class="post-meta">
+            <div class="post-categories"><span class="category-tag">jekyll update</span></div>
+            <span class="read-more">Read more →</span>
+          </footer>
+        </article>
+
+        <article class="post-preview">
+          <header class="post-header">
+            <time class="post-date" datetime="2014-04-10 09:30:33">
+              April 10, 2014
+            </time>
+            <h2 class="post-title">
+              <a href="/2014/04/test/">The Start of yet Another Blog</a>
+            </h2>
+          </header>
+          
+          <div class="post-excerpt">
+            Mou !Mou iconhttp://mouapp.com/Mou_128.png Overview Mou, the missing Markdown editor for web developers. Syntax Strong and Emphasize strong or __strong__ Cmd + B emphasize or _emphasize_ Cmd + I Sometimes I...
+          </div>
+          
+          <footer class="post-meta">
+            
+            <span class="read-more">Read more →</span>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 class="footer-title">Contact</h3>
+        <p class="footer-text">
+          Tian Cao<br>
+          Ph.D. Candidate<br>
+          <a href="mailto:tiancao@cs.unc.edu">tiancao@cs.unc.edu</a>
+        </p>
+      </div>
+      <div class="footer-section">
+        <h3 class="footer-title">Links</h3>
+        <p class="footer-text">
+          <a href="http://github.com/tonycao/">GitHub</a><br>
+          <a href="http://tiancao.me/">Website</a><br>
+          <a href="https://www.linkedin.com/in/tiancao/">LinkedIn</a>
+        </p>
+      </div>
+      <div class="footer-section footer-rss">
+        <a href="http://feeds.feedburner.com/TianCao">
+          <img src="images/rss2.svg" width="32" height="32" alt="RSS Feed">
+        </a>
+      </div>
+    </div>
+  </footer>
 </div>
+
+</body>
+</html>

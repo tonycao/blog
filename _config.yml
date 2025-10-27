@@ -6,7 +6,7 @@ url: http://tiancao.me/blog
 #baseurl: http://tiancao.me/blog
 author: Tian Cao
 highlighter: rouge
-exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
+exclude: ['Rakefile.rb', 'CNAME', 'README.markdown', 'vendor', 'Gemfile', 'Gemfile.lock', 'node_modules']
 
 # site config
 feed: /atom.xml
